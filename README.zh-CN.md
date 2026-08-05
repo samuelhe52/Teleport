@@ -6,12 +6,12 @@ Teleport 是一款原生 macOS 应用，可以伪造 iOS 设备的定位——�
 
 基于 SwiftUI 和 MapKit 构建。在地图上点一个位置，按下 Simulate，设备就以为自己在那里。
 
+> [!WARNING]
+> iOS 27 和 macOS 27 的支持目前仍处于实验阶段，部分用户可能无法正常使用。如果遇到问题，请先确认你的 Mac 和 iPhone 都已更新至最新测试版；如果问题依旧存在，请提交 issue。
+
 ![Teleport – 定位模拟](Resources/screenshot-main.jpg)
 
 ![Teleport – 路线构建](Resources/screenshot-route.jpg)
-
-> [!WARNING]
-> **iOS 27 和 macOS 27 尚未经过测试，也暂不支持。** 有报告称，iOS 27 设备不会出现在 Teleport 中；更新后可能无法发现或模拟实体设备。请在更新前评估这一风险。兼容性更新最早预计于 8 月下旬发布。
 
 ## 安装
 

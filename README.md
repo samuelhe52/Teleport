@@ -6,12 +6,12 @@ Teleport is a native macOS app for faking iOS device location — on simulators 
 
 It's built with SwiftUI and MapKit. Click somewhere on the map, hit Simulate, and your device thinks it's there.
 
+> [!WARNING]
+> iOS 27 / macOS 27 support is experimental and may not work for all users. If you run into issues, ensure that both your Mac and iPhone are running the latest beta; if problems persist, please file an issue.
+
 ![Teleport – location simulation](Resources/screenshot-main.jpg)
 
 ![Teleport – route builder](Resources/screenshot-route.jpg)
-
-> [!WARNING]
-> **iOS 27 and macOS 27 are not yet tested or supported.** There are reports that iOS 27 devices do not appear in Teleport, so updating may prevent you from discovering or simulating a physical device. Please weigh that risk before updating. We expect to ship a compatibility update no earlier than late August.
 
 ## Install
 
