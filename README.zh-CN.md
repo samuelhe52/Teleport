@@ -1,13 +1,22 @@
-# Teleport
+<div align="center">
+  <img src="Resources/teleport-icon.webp" alt="Teleport 应用图标" width="160" />
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+  <h1>Teleport</h1>
 
-Teleport 是一款原生 macOS 应用，可以伪造 iOS 设备的定位——支持模拟器，以及通过 USB 或 Wi-Fi 连接的实体设备。
+  <p>在 Mac 上模拟 iOS 设备定位，支持模拟器及通过 USB 或 Wi-Fi 连接的实体设备。</p>
 
-基于 SwiftUI 和 MapKit 构建。在地图上点一个位置，按下 Simulate，设备就以为自己在那里。
+  <p>
+    <img src="https://img.shields.io/badge/platform-macOS-34C759" alt="macOS 应用" />
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT 许可证" />
+    <a href="https://github.com/samuelhe52/Teleport/releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC-007AFF?logo=apple&logoColor=white" alt="下载最新版 Teleport" /></a>
+  </p>
 
-> [!WARNING]
-> iOS 27 和 macOS 27 的支持目前仍处于实验阶段，部分用户可能无法正常使用。如果遇到问题，请先确认你的 Mac 和 iPhone 都已更新至最新测试版；如果问题依旧存在，请提交 issue。
+  <p><a href="README.md">English</a> · <a href="#安装">安装</a></p>
+</div>
+
+---
+
+Teleport 基于 SwiftUI 和 MapKit 构建。在地图上点一个位置，按下 Simulate，设备就以为自己在那里。
 
 ![Teleport – 定位模拟](Resources/screenshot-main.jpg)
 

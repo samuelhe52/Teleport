@@ -1,13 +1,22 @@
-# Teleport
+<div align="center">
+  <img src="Resources/teleport-icon.webp" alt="Teleport app icon" width="160" />
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+  <h1>Teleport</h1>
 
-Teleport is a native macOS app for faking iOS device location — on simulators and physical devices connected over USB or Wi-Fi.
+  <p>Simulate iOS device locations from your Mac, on simulators and physical devices over USB or Wi-Fi.</p>
 
-It's built with SwiftUI and MapKit. Click somewhere on the map, hit Simulate, and your device thinks it's there.
+  <p>
+    <img src="https://img.shields.io/badge/platform-macOS-34C759" alt="macOS app" />
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" />
+    <a href="https://github.com/samuelhe52/Teleport/releases/latest"><img src="https://img.shields.io/badge/Download-Latest%20release-007AFF?logo=apple&logoColor=white" alt="Download the latest Teleport release" /></a>
+  </p>
 
-> [!WARNING]
-> iOS 27 / macOS 27 support is experimental and may not work for all users. If you run into issues, ensure that both your Mac and iPhone are running the latest beta; if problems persist, please file an issue.
+  <p><a href="README.zh-CN.md">简体中文</a> · <a href="#install">Install</a></p>
+</div>
+
+---
+
+Teleport is built with SwiftUI and MapKit. Click somewhere on the map, hit Simulate, and your device thinks it's there.
 
 ![Teleport – location simulation](Resources/screenshot-main.jpg)
 
