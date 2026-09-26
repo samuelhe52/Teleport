@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Resources/teleport-icon.webp" alt="Teleport app icon" width="160" />
+  <img src="Resources/teleport-icon.webp" alt="Teleport app icon" width="200"/>
 
   <h1>Teleport</h1>
 
